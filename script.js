@@ -453,7 +453,7 @@ document.getElementById('claim-airdrop-btn').addEventListener('click', function(
         <p>All WLFG tokens will be sent directly to your wallet address automatically when the presale concludes.</p>
         <div style="background: var(--bg-primary); padding: 1.2rem; border-radius: 8px; margin: 1.5rem 0; border: 2px solid var(--primary-color);">
             <p style="margin: 0; color: var(--primary-color); font-weight: 700;"><strong>🎯 Reward Details:</strong></p>
-            <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary);">• <strong>2,500 WLFG</strong> per successful referral</p>
+            <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary);">• <strong>2,000 WLFG</strong> per successful referral</p>
             <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary);">• Automatic distribution to your wallet</p>
             <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary);">• No gas fees for receiving</p>
             <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary);">• Distributed within 48 hours after presale ends</p>
