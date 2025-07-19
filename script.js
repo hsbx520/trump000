@@ -567,11 +567,11 @@ class PurchaseNotificationSystem {
         let amount;
         
         if (currency === 'ETH') {
-            amount = (Math.random() * 2 + 0.02).toFixed(2);
+            amount = (Math.random() * 2 + 0.1).toFixed(2);
         } else if (currency === 'BNB') {
-            amount = (Math.random() * 10 + 0.1).toFixed(2);
+            amount = (Math.random() * 10 + 0.3).toFixed(2);
         } else {
-            amount = (Math.random() * 5000 + 50).toFixed(0);
+            amount = (Math.random() * 5000 + 200).toFixed(0);
         }
         
         return { amount, currency };
