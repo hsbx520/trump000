@@ -34,13 +34,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 const RATES = {
     // 1 ETH = 320,320 WLFG
-    'eth': { wlfg_per_unit: 320320, min: 0.02 },
+    'eth': { wlfg_per_unit: 320320, min: 0.1 },
     // 1 BNB = 58,520 WLFG
-    'bnb': { wlfg_per_unit: 66880, min: 0.1 },
+    'bnb': { wlfg_per_unit: 66880, min: 0.3 },
     // 1 USDT = 88 WLFG
-    'usdt': { wlfg_per_unit: 88, min: 50 },
+    'usdt': { wlfg_per_unit: 88, min: 200 },
     // 1 USDC = 88 WLFG
-    'usdc': { wlfg_per_unit: 88, min: 50 }
+    'usdc': { wlfg_per_unit: 88, min: 200 }
 };
 
 const amountInput = document.getElementById('amount');
