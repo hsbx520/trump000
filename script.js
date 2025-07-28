@@ -309,8 +309,8 @@ document.querySelectorAll('.faq-question').forEach(question => {
 
 // Countdown Timer Logic
 function startCountdown() {
-    // Target date: July 27, 2025, 12:00 PM US Eastern Time (EDT which is UTC-4)
-    const targetDate = new Date('2025-07-27T12:00:00-04:00').getTime();
+    // Target date: July 31, 2025, 12:00 PM US Eastern Time (EDT which is UTC-4)
+    const targetDate = new Date('2025-07-31T12:00:00-04:00').getTime();
     
     const countdownTimerEl = document.getElementById('countdown-timer');
     const daysEl = document.getElementById('days');
