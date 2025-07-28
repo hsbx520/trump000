@@ -581,7 +581,7 @@ class PurchaseNotificationSystem {
         // Use the exact rates from the presale
         const rates = {
             'ETH': 320320,
-            'BNB': 66880,
+            'BNB': 75680,
             'USDT': 88,
             'USDC': 88
         };
