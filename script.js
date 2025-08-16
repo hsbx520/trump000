@@ -34,9 +34,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 const RATES = {
     // 1 ETH = 343,200 WLFG
-    'eth': { wlfg_per_unit: 343200, min: 0.1 },
+    'eth': { wlfg_per_unit: 391600, min: 0.1 },
     // 1 BNB = 75,680 WLFG
-    'bnb': { wlfg_per_unit: 75680, min: 0.3 },
+    'bnb': { wlfg_per_unit: 73480, min: 0.3 },
     // 1 USDT = 88 WLFG
     'usdt': { wlfg_per_unit: 88, min: 200 },
     // 1 USDC = 88 WLFG
@@ -309,8 +309,8 @@ document.querySelectorAll('.faq-question').forEach(question => {
 
 // Countdown Timer Logic
 function startCountdown() {
-    // Target date: August 10, 2025, 12:00 PM US Eastern Time (EDT which is UTC-4)
-    const targetDate = new Date('2025-08-10T12:00:00-04:00').getTime();
+    // Target date: August 18, 2025, 12:00 PM US Eastern Time (EDT which is UTC-4)
+    const targetDate = new Date('2025-08-18T12:00:00-04:00').getTime();
     
     const countdownTimerEl = document.getElementById('countdown-timer');
     const daysEl = document.getElementById('days');
