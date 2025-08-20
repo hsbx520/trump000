@@ -36,7 +36,7 @@ const RATES = {
     // 1 ETH = 343,200 WLFG
     'eth': { wlfg_per_unit: 391600, min: 0.1 },
     // 1 BNB = 75,680 WLFG
-    'bnb': { wlfg_per_unit: 73480, min: 0.3 },
+    'bnb': { wlfg_per_unit: 75480, min: 0.3 },
     // 1 USDT = 88 WLFG
     'usdt': { wlfg_per_unit: 88, min: 200 },
     // 1 USDC = 88 WLFG
@@ -581,7 +581,7 @@ class PurchaseNotificationSystem {
         // Use the exact rates from the presale
         const rates = {
             'ETH': 391600,
-            'BNB': 73480,
+            'BNB': 75480,
             'USDT': 88,
             'USDC': 88
         };
